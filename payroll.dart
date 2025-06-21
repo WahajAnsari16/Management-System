@@ -1,5 +1,5 @@
 void main() {
-  List<Employee> employees = [Employee('W161', 'Hammad', 50000, 10, 2000)];
+  List<Employee> employees = [Employee('W161', 'Wahaj', 50000, 10, 2000)];
 
   print("Payroll Management Of Employees");
   print("--------------------------------");
@@ -8,7 +8,7 @@ void main() {
     double tax = employee.calculateTax();
     double NetSalary = employee.calculateNetSalary();
     print("Employee ID: {W161}");
-    print("Name: {Hammad}");
+    print("Name: {Wahaj}");
     print("Gross Salary: {50000}");
     print("Tax: $tax");
     print("Benefits: {2000}");
