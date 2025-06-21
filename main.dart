@@ -6,7 +6,7 @@ void main() {
   String fingerPrint = "fingerPrint";
   String attendanceStatus = "present";
 
-  print("H101");
+  print(""W161");
   String? inputId = stdin.readLineSync();
 
   print("fingerPrint");
